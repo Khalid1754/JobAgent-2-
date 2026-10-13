@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Torrkörning (utan Claude)": {
+      "commandName": "Project",
+      "commandLineArgs": "--Agent:DryRun=true",
+      "workingDirectory": "$(ProjectDir)..\\.."
+    },
+    "Full körning": {
+      "commandName": "Project",
+      "workingDirectory": "$(ProjectDir)..\\.."
+    }
+  }
+}

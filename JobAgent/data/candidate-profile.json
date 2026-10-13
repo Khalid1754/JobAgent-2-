@@ -1,0 +1,116 @@
+{
+  "name": "Khalid Hassan",
+  "title": "Junior Systemutvecklare – Backend & System",
+  "location": "Göteborg",
+  "searchRegion": ["Göteborg", "Mölndal", "Partille", "Kungälv"],
+  "seniority": "junior",
+  "itExperienceMonths": 7,
+  "summary": "Systemvetare (fil.kand. Informatik, systemutveckling) med inriktning mot backend i C#/.NET: API-design, SQL Server, testning. Har 7 månaders IT-praktik som applikationstekniker (installation, konfiguration, användarsupport, incidenthantering) och tre teamprojekt.",
+
+  "targetRoles": [
+    { "role": ".NET backendutvecklare", "priority": 1 },
+    { "role": "C# utvecklare", "priority": 1 },
+    { "role": "Fullstack utvecklare", "priority": 2 },
+    { "role": "Systemtest", "priority": 2 },
+    { "role": "Applikationssupport", "priority": 2 },
+    { "role": "Applikationsspecialist", "priority": 2 },
+    { "role": "Systemförvaltare", "priority": 2 },
+    { "role": "Integrationsspecialist", "priority": 3 },
+    { "role": "Implementationsspecialist", "priority": 3 },
+    { "role": "IT-tekniker", "priority": 3 },
+    { "role": "Systemadministratör", "priority": 3 }
+  ],
+
+  "skills": [
+    { "name": "C#", "level": "strong", "evidence": ["RestoNation", "LiFeDenTal", "SmartE-school"] },
+    { "name": "ASP.NET Core Web API", "level": "strong", "evidence": ["RestoNation", "LiFeDenTal"] },
+    { "name": "RESTful API-design", "level": "strong", "evidence": ["LiFeDenTal"] },
+    { "name": "SQL Server", "level": "good", "evidence": ["LiFeDenTal"] },
+    { "name": "Unit testing / TDD", "level": "basic", "evidence": ["CV"] },
+    { "name": "Systemtest / testfall (IEEE 829)", "level": "good", "evidence": ["Systemtest – Testprojekt"] },
+    { "name": "Git/GitHub", "level": "good", "evidence": ["RestoNation"] },
+    { "name": "Agilt arbetssätt / Scrum-sprintar", "level": "good", "evidence": ["RestoNation"] },
+    { "name": "Microsoft Azure", "level": "basic", "evidence": ["AZ-900", "DP-900"] },
+    { "name": "CI/CD", "level": "basic", "evidence": ["CV"] },
+    { "name": "OpenAI API / AI-integration", "level": "basic", "evidence": ["SmartE-school"] },
+    { "name": "WPF", "level": "basic", "evidence": ["SmartE-school"] },
+    { "name": "Python", "level": "basic", "evidence": ["Utbildning"] },
+    { "name": "JavaScript / HTML / CSS", "level": "basic", "evidence": ["Portfolio", "SmartE-school"] },
+    { "name": "Node.js", "level": "basic", "evidence": ["Portfolio"] },
+    { "name": "Applikationsdrift & konfiguration (InforMES)", "level": "good", "evidence": ["Praktik Estrella"] },
+    { "name": "Användarsupport & IT-incidenter", "level": "good", "evidence": ["Praktik Estrella"] }
+  ],
+
+  "experience": [
+    {
+      "title": "Applikationstekniker (praktik)",
+      "company": "Estrella AB",
+      "period": "2026-03 – 2026-09",
+      "itRelevant": true,
+      "highlights": [
+        "Installerade och konfigurerade program, bl.a. InforMES (MES-system)",
+        "Användarsupport och hantering av IT-incidenter",
+        "Underhöll och uppdaterade befintliga system"
+      ]
+    },
+    { "title": "Maskinoperatör", "company": "Estrella", "period": "2024-06 – pågående", "itRelevant": false, "highlights": ["Felsökning av maskinlarm i produktion", "Truckkörning"] },
+    { "title": "Vehicle Assembler", "company": "Volvo Cars Torslanda", "period": "2021-06 – 2024-02", "itRelevant": false, "highlights": ["Montering av växellåda och motor"] },
+    { "title": "Warehouse Worker", "company": "DHL Göteborg", "period": "2022-10 – 2024-06", "itRelevant": false, "highlights": ["Paketsortering"] }
+  ],
+
+  "projects": [
+    {
+      "name": "LiFeDenTal (PMS)",
+      "type": "eget",
+      "period": "2026-06 – pågående",
+      "tech": ["C#", "ASP.NET Core Web API", "SQL Server", "REST"],
+      "description": "Journal- och bokningssystem för tandvårdskliniker: REST-API:er för patientdata och bokningsflöden, datamodell och CRUD i SQL Server.",
+      "pitchFor": ["backend", "API", "databas", "vård/medtech"]
+    },
+    {
+      "name": "RestoNation",
+      "type": "team, kunduppdrag",
+      "period": "2025-08 – 2025-11",
+      "tech": ["C#", "ASP.NET Core Web API", "Git", "Agilt/sprintar"],
+      "description": "Applikation byggd i team efter en riktig kunds behov; backend-design och implementation, sprintar och kundavstämningar.",
+      "pitchFor": ["teamarbete", "agilt", "kundkontakt", "backend"]
+    },
+    {
+      "name": "SmartE-school",
+      "type": "hackathon, team",
+      "period": "2026-05",
+      "tech": ["C#", "WPF", "HTML", "CSS", "OpenAI API"],
+      "description": "Lärapp för grundskoleelever byggd under hackathon, med AI-funktionalitet via OpenAI API.",
+      "pitchFor": ["AI", "snabb leverans", "frontend/UI", "edtech"]
+    },
+    {
+      "name": "Systemtest – DSS",
+      "type": "utbildning",
+      "period": "2024-01 – 2024-04",
+      "tech": ["IEEE 829", "negativa testfall", "valideringstester"],
+      "description": "Testade ett system i olika miljöer, negativa testfall och felhantering enligt IEEE 829.",
+      "pitchFor": ["systemtest", "QA", "kvalitet"]
+    }
+  ],
+
+  "education": [
+    { "degree": "Fil.kand. Informatik, inriktning systemutveckling", "school": "Högskolan i Borås", "period": "2022-08 – 2025-06" }
+  ],
+
+  "certifications": [
+    { "name": "Microsoft Certified: Azure Fundamentals (AZ-900)", "date": "2026-04" },
+    { "name": "Microsoft Certified: Azure Data Fundamentals (DP-900)", "date": "2026-04" }
+  ],
+
+  "links": {
+    "portfolio": "https://khalidhassanportfolio.netlify.app",
+    "linkedin": "https://www.linkedin.com/in/khalid-hassan-0b62222b2/"
+  },
+
+  "matchingRules": {
+    "preferJunior": true,
+    "maxRequiredYearsExperience": 2,
+    "penalize": ["senior", "lead", "arkitekt", "5+ års erfarenhet", "säkerhetsprövning krävs"],
+    "boost": ["junior", "nyexaminerad", "trainee", "C#", ".NET", "ASP.NET", "SQL Server", "Azure", "REST", "systemtest", "applikationsförvaltning", "MES", "tillverkningsindustri"]
+  }
+}

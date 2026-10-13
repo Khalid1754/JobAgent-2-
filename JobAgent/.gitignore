@@ -1,0 +1,12 @@
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+
+# Körresultat – innehåller annonser och dina matchningar
+output/
+data/seen-jobs.json
+
+# CV:t innehåller telefonnummer – lägg inte upp det publikt på GitHub
+data/*.pdf

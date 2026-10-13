@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/JobAgent.Core/JobAgent.Core.csproj" />
+    <Project Path="src/JobAgent.Runner/JobAgent.Runner.csproj" />
+  </Folder>
+</Solution>
